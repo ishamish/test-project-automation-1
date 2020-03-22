@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Automate Repo1
-      uses: subhamX/github@v1
+      uses: subhamX/github
       env:
         SECRET_TOKEN: ${{ secrets.SECRET_TOKEN }}
         COLUMN_NAME: Progress
