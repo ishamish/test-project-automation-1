@@ -1,8 +1,6 @@
 name: Update PRs On GitHub Project Card
 on:
   [push]
-  # schedule:
-  #   - cron: "0 * * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
