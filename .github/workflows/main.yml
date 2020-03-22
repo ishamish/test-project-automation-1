@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Automate Repo1
       uses: subhamX/github@v1
-      env:
+      with:
         SECRET_TOKEN: ${{ secrets.SECRET_TOKEN }}
         COLUMN_NAME: Progress
         PROJECT_URL: https://github.com/hercules-iitrpr/
